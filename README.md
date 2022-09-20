@@ -1,2 +1,2 @@
-# goit-markup-hw-06
-Homework-06-WebStudio
+# goit-markup-hw-07
+Homework-07-WebStudio
