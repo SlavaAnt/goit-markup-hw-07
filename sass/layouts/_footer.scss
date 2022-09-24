@@ -19,10 +19,15 @@
         letter-spacing: 0.03em;
         color: var(--t-light-color);
     }
+    &-contact__list {
+        @include list;
+    }
     &-contact__item {
         margin-top: 9px;
     }
     &-contact__link {
+        @include link;
+
         display: inline-block;
         line-height: calc(21 / 14);
         letter-spacing: 0.03em;

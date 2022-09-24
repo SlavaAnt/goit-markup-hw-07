@@ -1,5 +1,7 @@
 
 .team {
+    @include section;
+    
     &__title {
         margin-bottom: 50px;
         font-size: 36px;
@@ -8,6 +10,8 @@
         letter-spacing: 0.03em;
     }
     &__list {
+        @include list;
+        
         display: flex;
         gap: 30px;
     }

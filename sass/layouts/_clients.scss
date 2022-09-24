@@ -1,4 +1,6 @@
 .clients {
+    @include section;
+    
     &__title {
         margin-bottom: 50px;
         font-size: 36px;
@@ -8,11 +10,15 @@
         color: var(--t-primary-color);
     }
     &__list {
+        @include list;
+
         display: flex;
         gap: 30px;
         justify-content: center;
     }
     &__link {
+        @include link;
+        
         display: flex;
         align-items: center;
         justify-content: center;

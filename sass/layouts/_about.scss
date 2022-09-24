@@ -1,5 +1,9 @@
 .about {
+    @include section;
+
     &__list {
+        @include list;
+        
         display: flex;
         gap: 30px;
     }

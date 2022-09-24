@@ -1,9 +1,13 @@
 .contact {
+    @include list;
+
     display: flex;
     align-items: center;
     gap: 30px;
 
     &__link {
+        @include link;
+
         display: flex;
         align-items: center;
         gap: 10px;

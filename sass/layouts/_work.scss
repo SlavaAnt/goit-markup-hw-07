@@ -1,4 +1,5 @@
 .work {
+    @include section;
     padding-top: 0;
 
     &__title {
@@ -9,6 +10,8 @@
         letter-spacing: 0.03em;
     }
     &__list {
+        @include list;
+        
         display: flex;
         gap: 30px;
     }

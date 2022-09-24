@@ -1,6 +1,7 @@
 // Utils styles
 @import "./utils/vars";
 @import "./utils/visually-hidden";
+@import "./utils/mixin";
 
 // Base styles
 @import "./base/base";
@@ -13,8 +14,6 @@
 @import "./components/button";
 @import "./components/social";
 @import "./components/modal";
-
-
 
 
 // Layout style
