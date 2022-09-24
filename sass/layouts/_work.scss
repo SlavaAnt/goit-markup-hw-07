@@ -18,6 +18,9 @@
     &__thumb {
         position: relative;
     }
+    &__img {
+        @include img;
+    }
     &__text {
         position: absolute;
         bottom: 0;

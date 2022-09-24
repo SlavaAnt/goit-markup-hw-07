@@ -12,3 +12,8 @@
     text-decoration: none;
     color: currentColor;
 }
+@mixin img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
