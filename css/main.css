@@ -464,13 +464,14 @@ p {
 .register-form__checkbox:checked + .register-form__icons .icon-unchecked {
   opacity: 0;
 }
-.register-form__checkbox:checked:focus {
-  outline: 1px solid var(--br-accent-color);
-  border-radius: 2px;
+.register-form__checkbox:focus + .register-form__icons {
+  outline: 1.5px solid var(--br-accent-color);
+  outline-offset: 1px;
+  border-radius: 1px;
 }
-.register-form__checkbox:focus {
-  outline: 1px solid var(--i-dark-color);
-  border-radius: 2px;
+.register-form__checkbox:focus:checked + .register-form__icons {
+  outline: 1.5px solid var(--i-dark-color);
+  border-radius: 1px;
 }
 .register-form__agreement > span {
   font-size: 14px;

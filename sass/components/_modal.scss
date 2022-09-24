@@ -161,13 +161,14 @@
     &__icons .icon-unchecked {
         opacity: 0;
     }
-    &__checkbox:checked:focus {
-        outline: 1px solid var(--br-accent-color);
-        border-radius: 2px;
+    &__checkbox:focus + &__icons{
+        outline: 1.5px solid var(--br-accent-color);
+        outline-offset: 1px;
+        border-radius: 1px;
     }
-    &__checkbox:focus {
-        outline: 1px solid var(--i-dark-color);
-        border-radius: 2px;
+    &__checkbox:focus:checked + &__icons {
+        outline: 1.5px solid var(--i-dark-color);
+        border-radius: 1px;
     }
     &__agreement>span {
         font-size: 14px;
