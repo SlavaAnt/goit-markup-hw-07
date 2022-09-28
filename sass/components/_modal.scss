@@ -161,7 +161,7 @@
     &__icons .icon-unchecked {
         opacity: 0;
     }
-    &__checkbox:focus + &__icons{
+    &__checkbox:focus + &__icons {
         outline: 1.5px solid var(--br-accent-color);
         outline-offset: 1px;
         border-radius: 1px;
